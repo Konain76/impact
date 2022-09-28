@@ -1,0 +1,147 @@
+body{
+  font-family: 'Montserrat',sans-serif;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #B1B2FF;
+}
+
+.tag{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.container-fluid{
+  padding-top: 3%;
+}
+.navbar{
+  padding: 0;
+  margin-bottom: 70px;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 10px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+.main-button{
+  margin: 5% 3% 5% 0;
+}
+.frent-img{
+  width: 35%;
+  border-radius: 15px;
+  transform: rotate(25deg);
+  margin: 5% 10%;
+  position: absolute;
+  right: 25px;
+
+}
+
+.Features-img{
+  width: 18%;
+  margin-bottom: 1rem;
+}
+.Features-img:hover{
+  color:#B1B2FF;
+}
+.Features-box{
+  text-align: center;
+  padding: 10%;
+}
+.Testimonial-img{
+  border-radius: 100%;
+  margin: 20px;
+}
+.Testimonial-banner{
+  padding-top: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  font-weight: bold;
+}
+.carousel-item{
+  padding: 7% 10%;
+}
+
+.press-logo{
+  margin: 20px 20px 50px 20px;
+}
+#title{
+  background-color: #B1B2FF;
+  color: #fff;
+}
+#Features{
+  padding: 5% 10%;
+  background-color: white;
+  position:relative;
+  /* z-index: 1; */
+}
+#Testimonials{
+
+  text-align: center;
+  background-color: #AAC4FF;
+  color: #fff;
+}
+#press{
+  background-color: #AAC4FF;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#Pricing{
+  padding: 100px;
+  text-align: center;
+  background-color: #D2DAFF;
+}
+#cta{
+  background-color: #B1B2FF;
+  color: #fff;
+  text-align: center;
+  padding: 5% 10%;
+}
+.cta-logo{
+  width:3%;
+  margin: 1%;
+}
+#footer{
+  padding: 5% 10%;
+  text-align: center;
+  background-color: #EEF1FF;
+}
+.pricing-col{
+  padding: 3% 2%;
+
+}
+#Pricing h2{
+  font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 1080px) {
+  #title{
+    text-align: center;
+  }
+  .frent-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+
+
+
+
+ 
